@@ -45,7 +45,7 @@ const retrieveData = async () =>{
  // Write updated data to DOM elements
  city.innerHTML = 'City: ' + allData.city + ", " + allData.country;
  temp.innerHTML = 'Temperature: ' + Math.round(allData.temp) + ' °C';
- content.innerHTML = 'Feeling: ' + allData.feeling;
+ content.innerHTML = 'I Feel: ' + allData.feeling;
  date.innerHTML = 'Date: ' + allData.date;
  }
  catch(error) {
@@ -58,6 +58,7 @@ const getApiData=async(url)=>{
     const response = await fetch(url)
     try {   
      const data =await response.json();  
+     console.log(data)
      return data;
     }catch (error){  
      console.log("error",error);

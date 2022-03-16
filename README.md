@@ -1,10 +1,29 @@
 # Weather-Journal App Project
 
 ## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+This project get the weather data from [OpenweatherMap](https://openweathermap.org/api) Api then send it to server app and dynamically update the UI. 
 
 ## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+follow these steps:
+
+    - Use ``git https://github.com/ubdo15/weather-journal-app.git``.
+    - Run ``npm install`` to installs the dependencies required for the project.
+    - Run using ``node server.js``
+    - Open your browser window and navigate to http://localhost:8080/ 
+  
+## Technologies 
+-Front End
+*   JS
+*   HTML
+*   CSS
+    
+-Back End
+*   Node.js    
+
+## Dependencies
+-   Express
+-   Body-parser
+-   Cors
+-   Open Weather Map Api
+
